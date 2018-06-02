@@ -6,7 +6,7 @@ from PyQt5.QtGui import QGuiApplication
 
 from PyQt5 import QtCore
 
-Form = uic.loadUiType(os.path.join(os.getcwd(), "Test2.ui"))[0]
+Form = uic.loadUiType(os.path.join(os.getcwd(), "gui.ui"))[0]
 
 
 class Matplotlib(Form, QMainWindow):
